@@ -11,6 +11,7 @@ public class ExercicioSoma {
 
         System.out.print("Digite o segundo número: ");
         int b = sc.nextInt();
+        sc.close();
 
         System.out.printf("Você digitou %d e %d%n", x, b);
 
