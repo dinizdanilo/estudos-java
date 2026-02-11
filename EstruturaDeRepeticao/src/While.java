@@ -15,7 +15,6 @@ public class While {
         }
 
         System.out.println(soma);
-
         sc.close();
     }
 }
