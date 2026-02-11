@@ -15,5 +15,6 @@ public class Senha {
         }
 
         System.out.print(("Acesso pertmitido."));
+        sc.close();
     }
 }
