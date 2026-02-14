@@ -12,6 +12,7 @@ public class FormatacoesString {
         String s06 = original.replace('a', 'x');
         String s07 = original.replace("abc", "xy");
         int i = original.indexOf("bc");
+        int j = original.lastIndexOf("bc");
 
         System.out.println("Original: " + original + "-");
         System.out.println("toLowerCase(): -" + s01 + "-");
@@ -21,5 +22,7 @@ public class FormatacoesString {
         System.out.println("tsubstring(2, 9): -" + s05 + "-");
         System.out.println("replace('a', 'x'): -" + s06 + "-");
         System.out.println("replace('abc', 'x'): -" + s07 + "-");
+        System.out.println("Index of 'bc': -" + i + "-");
+        System.out.println("lastIndex of 'bc': -" + j + "-");
     }
 }
