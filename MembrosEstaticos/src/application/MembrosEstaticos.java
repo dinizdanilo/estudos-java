@@ -14,7 +14,7 @@ public class MembrosEstaticos {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter radius: ");
+        System.out.print("Enter radius: ");
         double radius = sc.nextDouble();
 
         double c = Calculator.circumference(radius);
