@@ -21,8 +21,9 @@ public class Main {
 
         System.out.print("Price: ");
         double price = sc.nextDouble();
-
         Product product = new Product(name, price);
+
+        product.setName("Computer");
 
         System.out.println("\nProduct data: " + product);
 
@@ -30,7 +31,7 @@ public class Main {
         int quantity = sc.nextInt();
         product.addProducts(quantity);
 
-        System.out.println("\nUpadted data: " + product);
+        System.out.println("\nUpadted data: " + product.getName());
 
         System.out.print("\nEnter the number of products to be removed from stock: ");
         quantity = sc.nextInt();
